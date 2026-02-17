@@ -1,0 +1,51 @@
+! 10/8/2019 https://foreignpolicy.com
+foreignpolicy.com###paywall_bg
+foreignpolicy.com##.counter_content_open.paywall_counter
+
+! 6/15/2020 https://woodcraftsman.ru
+||woodcraftsman.ru/Themes/japanese-red-rsp/images/smflogo.png$image
+
+! zen.yandex.ru ads
+##div[class$="__ad-content"]
+
+! 2022-02-05 https://habr.com
+habr.com##.tm-voice-article__body
+
+! 2023-09-04 https://we.easyelectronics.ru
+||easyelectronics.ru/img/pbwy/750x170.png$image
+
+! Feb 21, 2025 https://roads.ru
+||roads.ru/images/975-120_12-02.gif$image
+||roads.ru/images/975-120_12-02.gif$image
+
+! Mar 21, 2025 https://roads.ru
+||roads.ru/images/975-200.gif$image
+roads.ru##[href^="https://cementum.ru/catalog/nerudnye-materialy/"]
+
+! May 6, 2025 https://roads.ru
+||roads.ru/images/*x*_*.gif$image
+
+! Dec 26, 2025 https://pikabu.ru
+||banners.adfox.ru/*$image
+pikabu.ru###branding_ad_header
+
+! Jan 20, 2026 https://habr.com
+habr.com##.code-explainer
+
+! Feb 17, 2026 https://pikabu.ru
+pikabu.ru#?#div:-abp-has(div.story__advert-info)
+
+! Feb 17, 2026 https://habr.com
+habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(habrconnect))
+habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(runaway_llm))
+
+! Feb 17, 2026 https://pikabu.ru
+pikabu.ru##.feed-games-carousel.carousel_small.carousel
+pikabu.ru##.sidebar-pikabonus_B.sidebar-pikabonus
+
+! Feb 17, 2026 https://habr.com
+habr.com###news_block_1
+
+! Feb 17, 2026 https://roads.ru
+||roads.ru/main/wp-content/uploads/2019/04/donate2.gif$image
+
