@@ -5,10 +5,8 @@ foreignpolicy.com##.counter_content_open.paywall_counter
 ! Hide woodcraftsman.ru banner
 ||woodcraftsman.ru/Themes/japanese-red-rsp/images/smflogo.png$image
 
-! woodcraftsman.ru
-||easyelectronics.ru/img/pbwy/750x170.png$image
-
 ! Misc. annoying banners & buttons
+||easyelectronics.ru/img/pbwy/750x170.png$image
 ||roads.ru/images/975-120_12-02.gif$image
 ||roads.ru/images/975-120_12-02.gif$image
 ||roads.ru/images/975-200.gif$image
