@@ -1,10 +1,14 @@
+! Bypassing foreignpolicy.com paywall
 foreignpolicy.com###paywall_bg
 foreignpolicy.com##.counter_content_open.paywall_counter
 
+! Hide woodcraftsman.ru banner
 ||woodcraftsman.ru/Themes/japanese-red-rsp/images/smflogo.png$image
 
+! woodcraftsman.ru
 ||easyelectronics.ru/img/pbwy/750x170.png$image
 
+! Misc. annoying banners & buttons
 ||roads.ru/images/975-120_12-02.gif$image
 ||roads.ru/images/975-120_12-02.gif$image
 ||roads.ru/images/975-200.gif$image
@@ -12,18 +16,24 @@ roads.ru##[href^="https://cementum.ru/catalog/nerudnye-materialy/"]
 ||roads.ru/images/*x*_*.gif$image
 ||roads.ru/main/wp-content/uploads/2019/04/donate2.gif$image
 
-! zen.yandex.ru
+! Ads not found in public lists (maybe already included)
 ##div[class$="__ad-content"]
-
 ||banners.adfox.ru/*$image
+
+! Clean up Pikabu
 pikabu.ru###branding_ad_header
+! - suppress advertisment posts
 pikabu.ru#?#div:-abp-has(div.story__advert-info)
 pikabu.ru##.feed-games-carousel.carousel_small.carousel
 pikabu.ru##.sidebar-pikabonus_B.sidebar-pikabonus
 
+! Clean up Habr
 habr.com##.tm-voice-article__body
 habr.com##.code-explainer
+! - block content from individual users
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(habrconnect))
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(runaway_llm))
+! - suppress news block (if news are already in the feed)
 habr.com###news_block_1
+! - only show 1st paragraph of posts in the feed
 habr.com##:matches-path(/ru/feed/) .tm-post-snippet .article-formatted-body > :not(p:first-of-type)
