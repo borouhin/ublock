@@ -59,4 +59,5 @@ x.com#?#div[aria-label="Home timeline"] > div:style(max-width: unset !important;
 reddit.com##.right-sidebar
 reddit.com#?#.main-container:style(grid-template-columns: unset !important;)
 ! - adults don't play games
+reddit.com##hr:has(+ faceplate-tracker[noun="games_drawer"])
 reddit.com##faceplate-tracker[noun="games_drawer"]
