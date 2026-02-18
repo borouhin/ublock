@@ -26,4 +26,4 @@ habr.com##.code-explainer
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(habrconnect))
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(runaway_llm))
 habr.com###news_block_1
-habr.com#?#.tm-post-snippet .article-formatted-body > :not(p:first-of-type)
+habr.com/ru/feed/#?#.tm-post-snippet .article-formatted-body > :not(p:first-of-type)
