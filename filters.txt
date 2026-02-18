@@ -53,3 +53,8 @@ habr.com##.tm-page__main_has-sidebar:style(max-width: unset !important;)
 x.com#?#div[data-testid="sidebarColumn"]
 x.com#?#div[data-testid="primaryColumn"]:style(max-width: unset !important;)
 x.com#?#div[aria-label="Home timeline"] > div:style(max-width: unset !important;)
+
+! Clean up Reddit
+! - remove right sidebar and use reclaimed space for post list
+reddit.com##.right-sidebar
+redit.com#?#.main-container:style(grid-template-columns: unset !important;)
