@@ -49,3 +49,4 @@ habr.com###news_block_1
 ! Feb 17, 2026 https://roads.ru
 ||roads.ru/main/wp-content/uploads/2019/04/donate2.gif$image
 
+habr.com#?#.tm-post-snippet .article-formatted-body > :not(p:first-of-type)
