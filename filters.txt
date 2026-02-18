@@ -21,7 +21,7 @@ roads.ru##[href^="https://cementum.ru/catalog/nerudnye-materialy/"]
 ! Clean up Pikabu
 pikabu.ru###branding_ad_header
 ! - suppress advertisment posts
-pikabu.ru#?#div:-abp-has(div.story__advert-info)
+! pikabu.ru#?#div:-abp-has(div.story__advert-info)
 ! - we don't plan to vote or react
 pikabu.ru##.story__rating-up
 pikabu.ru##.story__rating-down
