@@ -37,3 +37,5 @@ habr.com###news_block_1
 habr.com##:matches-path(/ru/feed/) .tm-post-snippet .article-formatted-body > :not(p:first-of-type)
 ! - suppress article stats in feed
 habr.com##:matches-path(/ru/feed/) .article-snippet > .stats
+! - suppress article labels in feed
+habr.com##:matches-path(/ru/feed/) .article-snippet > .tm-article-labels
