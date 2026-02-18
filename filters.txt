@@ -35,3 +35,5 @@ habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contain
 habr.com###news_block_1
 ! - only show 1st paragraph of posts in the feed
 habr.com##:matches-path(/ru/feed/) .tm-post-snippet .article-formatted-body > :not(p:first-of-type)
+! - suppress article stats in feed
+habr.com##:matches-path(/ru/feed/) .article-snippet > .stats
