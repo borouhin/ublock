@@ -22,8 +22,13 @@ roads.ru##[href^="https://cementum.ru/catalog/nerudnye-materialy/"]
 pikabu.ru###branding_ad_header
 ! - suppress advertisment posts
 pikabu.ru#?#div:-abp-has(div.story__advert-info)
-pikabu.ru##.feed-games-carousel.carousel_small.carousel
-pikabu.ru##.sidebar-pikabonus_B.sidebar-pikabonus
+! - we don't plan to vote or react
+pikabu.ru##.story__rating-up
+pikabu.ru##.story__rating-down
+pikabu.ru##.story__emotions
+! - remove sidebar and use reclaimed space for post list
+pikabu.ru##.sidebar_right.sidebar
+pikabu.ru##.main:style(width: unset !important;)
 
 ! Clean up Habr
 habr.com##.tm-voice-article__body
@@ -40,6 +45,5 @@ habr.com##:matches-path(/ru/feed/) .article-snippet > .stats
 ! - suppress article labels in feed
 habr.com##:matches-path(/ru/feed/) .article-snippet > .tm-article-labels
 ! - remove sidebar and use reclaimed space for article list
-! Feb 18, 2026 https://habr.com
 habr.com##.tm-page__sidebar
 habr.com##.tm-page__main_has-sidebar:style(max-width: unset !important;)
