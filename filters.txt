@@ -58,3 +58,5 @@ x.com#?#div[aria-label="Home timeline"] > div:style(max-width: unset !important;
 ! - remove right sidebar and use reclaimed space for post list
 reddit.com##.right-sidebar
 reddit.com#?#.main-container:style(grid-template-columns: unset !important;)
+! - adults don't play games
+reddit.com##faceplate-tracker[noun="games_drawer"]
