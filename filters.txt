@@ -28,7 +28,7 @@ pikabu.ru##.story__rating-down
 pikabu.ru##.story__emotions
 ! - remove sidebar and use reclaimed space for post list
 pikabu.ru##.sidebar_right.sidebar
-pikabu.ru##.main:style(width: unset !important;)
+pikabu.ru##.main:style(width: 100% !important;)
 
 ! Clean up Habr
 habr.com##.tm-voice-article__body
