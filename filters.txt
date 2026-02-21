@@ -49,6 +49,8 @@ habr.com##.tm-page__sidebar
 habr.com##.tm-page__main_has-sidebar:style(max-width: unset !important;)
 habr.com##.tm-article-presenter:style(max-width: unset !important;)
 habr.com##.tm-article-presenter__footer:style(max-width: unset !important;)
+habr.com##.tm-post-presenter:style(max-width: unset !important;)
+habr.com##.tm-post-presenter__footer:style(max-width: unset !important;)
 habr.com##.tm-article-comments:style(max-width: unset !important;)
 habr.com##.tm-article-comments__article-snippet:style(max-width: unset !important;)
 habr.com##.tm-data-icons:style(max-width: unset !important;)
