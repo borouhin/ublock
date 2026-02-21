@@ -36,15 +36,15 @@ habr.com##.code-explainer
 ! - block content from individual users
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(habrconnect))
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(runaway_llm))
-! - suppress news block (if news are already in the feed)
+! - suppress news block (if news are already in the feed - why duplicate them?)
 habr.com###news_block_1
-! - only show 1st paragraph of posts in the feed
+! - only show 1st paragraph of posts in the feed (click date to see full post)
 habr.com##:matches-path(/ru/feed/) .tm-post-snippet .article-formatted-body > :not(p:first-of-type)
 ! - suppress article stats in feed
 habr.com##:matches-path(/ru/feed/) .article-snippet > .stats
 ! - suppress article labels in feed
 habr.com##:matches-path(/ru/feed/) .article-snippet > .tm-article-labels
-! - remove sidebar and use reclaimed space for article list
+! - remove sidebar and use reclaimed space for content
 habr.com##.tm-page__sidebar
 habr.com##.tm-page__main_has-sidebar:style(max-width: unset !important;)
 habr.com##.tm-article-presenter:style(max-width: unset !important;)
