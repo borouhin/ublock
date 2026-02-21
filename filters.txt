@@ -29,6 +29,8 @@ pikabu.ru##.story__emotions
 ! - remove sidebar and use reclaimed space for post list
 pikabu.ru##.sidebar_right.sidebar
 pikabu.ru##.main:style(width: 100% !important;)
+! - adults don't play games
+pikabu.ru##.feed-games-carousel
 
 ! Clean up Habr
 habr.com##.tm-voice-article__body
