@@ -47,6 +47,7 @@ habr.com##:matches-path(/ru/feed/) .article-snippet > .tm-article-labels
 ! - remove sidebar and use reclaimed space for article list
 habr.com##.tm-page__sidebar
 habr.com##.tm-page__main_has-sidebar:style(max-width: unset !important;)
+habr.com##.tm-article-presenter:style(max-width: unset !important;)
 
 ! Clean up X.com
 ! - remove right sidebar and use reclaimed space for post list
