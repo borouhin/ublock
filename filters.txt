@@ -63,7 +63,6 @@ habr.com##.tm-data-icons:style(max-width: unset !important;)
 x.com#?#div[data-testid="sidebarColumn"]
 x.com#?#div[data-testid="primaryColumn"]:style(max-width: unset !important;)
 x.com#?#div[aria-label="Home timeline"] > div:style(max-width: unset !important;)
-x.com#?#div:style(max-width: unset !important;) > section[aria-labelledby="accessible-list-0"]
 
 ! Clean up Reddit
 ! - remove right sidebar and use reclaimed space for post list
