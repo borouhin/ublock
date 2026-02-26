@@ -1,3 +1,6 @@
+! Title: My Filters (borouhin)
+! Expires: 1 hour
+
 ! Bypassing foreignpolicy.com paywall
 foreignpolicy.com###paywall_bg
 foreignpolicy.com##.counter_content_open.paywall_counter
