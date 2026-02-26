@@ -43,6 +43,7 @@ habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contain
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(runaway_llm))
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(EgorKotkin))
 habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(cognitronn))
+habr.com#?#.tm-articles-list__item:-abp-has(.tm-user-info__username:-abp-contains(mefdayy))
 ! - suppress news block (if news are already in the feed - why duplicate them?)
 habr.com###news_block_1
 ! - only show 1st paragraph of posts in the feed (click date to see full post)
